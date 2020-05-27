@@ -20,6 +20,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.timer.start()
 
         self.closeButton.clicked.connect(app.exit)
+        self.closeButton.setVisible(False)
         self.setWindowState(QtCore.Qt.WindowState.WindowFullScreen)
 
         self.change_size(self.mainClock, 335)

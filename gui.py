@@ -30,8 +30,10 @@ class Ui_MainWindow(object):
         self.mainClock = QLabel(self.centralwidget)
         self.mainClock.setObjectName(u"mainClock")
         font = QFont()
-        font.setFamily(u"Monospace")
+        font.setFamily(u"FreeMono")
         font.setPointSize(200)
+        font.setBold(False)
+        font.setWeight(50)
         self.mainClock.setFont(font)
         self.mainClock.setAlignment(Qt.AlignCenter)
 
@@ -48,8 +50,10 @@ class Ui_MainWindow(object):
         self.day = QLabel(self.centralwidget)
         self.day.setObjectName(u"day")
         font1 = QFont()
-        font1.setFamily(u"Monospace")
+        font1.setFamily(u"FreeMono")
         font1.setPointSize(50)
+        font1.setBold(False)
+        font1.setWeight(50)
         self.day.setFont(font1)
         self.day.setAlignment(Qt.AlignHCenter|Qt.AlignTop)
 

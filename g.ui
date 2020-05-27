@@ -23,8 +23,10 @@ color: rgb(252, 175, 62);</string>
      <widget class="QLabel" name="mainClock">
       <property name="font">
        <font>
-        <family>Monospace</family>
+        <family>FreeMono</family>
         <pointsize>200</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
@@ -65,8 +67,10 @@ color: rgb(252, 175, 62);</string>
      <widget class="QLabel" name="day">
       <property name="font">
        <font>
-        <family>Monospace</family>
+        <family>FreeMono</family>
         <pointsize>50</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
